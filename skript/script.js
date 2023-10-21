@@ -58,7 +58,6 @@ function openSection(){
     btm_pluss.style.display = 'block';
     btn_minus.style.display = 'block';
     btn_sub.style.display = 'block';
-    corsine.style.display = 'block';
 }
 
 function setOption(mas){
