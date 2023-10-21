@@ -17,7 +17,6 @@ let img_s = document.getElementById('img_s');
 let coll_s = document.getElementById('coll_s');
 let text_s = document.getElementById('text_s');
 let property_s = document.getElementById('property_s');
-let corsine = document.getElementById("corsine");
 
 //Кнопки разделов
 let chocB = document.getElementById("chocolate_b");
@@ -59,7 +58,6 @@ function openSection(){
     btm_pluss.style.display = 'block';
     btn_minus.style.display = 'block';
     btn_sub.style.display = 'block';
-    corsine.style.display = 'block';
 }
 
 function setOption(mas){
