@@ -1,0 +1,204 @@
+$color1: rgb(255, 255, 255);
+$color2: #b0f6ff;
+$color3: #1b9aaa;
+$color4: #000000;
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.body_section{
+    display: flex;
+    flex-direction: column;
+    min-height: 800px;
+}
+
+header{
+    color: $color4;
+    font-size: 25px;
+    min-height: 100px;
+    background-color:$color1;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    div{
+        h1{
+            display: flex;
+            justify-content: center;
+            padding-top: 20px;
+        }
+    }
+}
+main{
+    flex: 1 1 auto;   
+    .main_div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        div{
+            padding: 20px;
+        }
+
+        .img{
+            img{
+                border-radius: 25px;
+            }
+        }
+
+        .coll{
+            input{
+                padding: 10px;
+                padding-right: 0px;
+                width: 300px;
+                height: 30px;
+                font-size: 24px;
+                border-color: $color4;
+            }
+        }
+
+        .type{
+            min-height: 50px;
+            font-size: 24px;
+            label{
+                margin: 20px;
+                font-size: 22px;
+                transition: font-size 0.5s ease;
+                color: $color3;
+                &:hover{
+                    border-bottom: 2px solid $color4;
+                    font-size: 26px;
+                }
+                p{
+                    display: inline;
+                    color: rgb(182, 182, 182);
+                }
+                input{
+                    accent-color:$color4;
+                    margin-right: 5px;
+                }
+            }
+        }
+        
+        .option{
+            select{
+                padding: 20px;
+                min-width: 330px;
+                border-color: $color4;
+                color:$color4;
+                font-size: 18px;
+                
+            }
+        }
+
+        .property{
+            label{
+                p{
+                    margin-bottom: 20px;
+                    color: rgb(105, 105, 105);
+                }
+            }
+        }
+
+        .text{
+            min-width: 300px;
+            color: darkslategrey;
+            border: 3px solid $color4;
+            border-radius: 30px;
+        }
+
+        .btn{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .plus{
+                background-color: $color1;
+                border: 2px solid grey;
+                border-radius: 10px;
+                padding: 20px;
+                &:hover{
+                    background-color:$color2;
+                }
+            }
+            .minus{
+                margin-top: 10px;
+                background-color: $color1;
+                border: 2px solid grey;
+                border-radius: 10px;
+                padding: 20px;
+                width: 100px;
+                &:hover{
+                    background-color:$color2 ;
+                }
+            }
+            .sub{
+                background-color: $color1;
+                border: 2px solid grey;
+                border-radius: 10px;
+                padding: 20px;
+                width: 300px;
+                &:hover{
+                    background-color:$color2;
+                }
+            }
+        }
+        .corsin_btn{
+            background-color: $color1;
+            border: 2px solid grey;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            &:hover{
+                background-color:$color2;
+            }
+        }
+
+    }
+}
+footer{
+    min-height: 60px;
+    background-color: $color1;
+    border-top: 3px solid rgb(0, 0, 0);
+    div{
+        h3{
+            display: flex;
+            justify-content: center;
+            padding-top: 20px;
+        }
+    }
+}
+
+.option, .img, .coll, .text, .property{
+    display: none;
+}
+
+.btn input{
+    display: none;
+}
+.corsine input{
+    display: none;
+}
+
+.img_tovar{
+    max-width: 800px;
+    min-height: 800px;
+    .a{
+        display: flex;
+        justify-content: center;
+    }
+    img{
+        margin: 20px;
+        border-radius: 50px;
+        box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5);
+        transition: width 0.5s ease;
+        &:hover{
+            border-radius: 30px;
+            width: 320px;
+        }
+    }
+}

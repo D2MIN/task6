@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>TASK - 6</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="skript/script.js" defer></script>
+</head>
+
+<body>
+    <div class="body_section">
+        <header>
+            <div class="">
+                <h1><a href="">Sweets</a></h1>
+            </div>
+        </header>
+        <main>
+            <div class="main_div">
+                <div class="type">
+                    <label>
+                        <input type="radio" name="sweets" id="chocolate_b">Шоколад <p>черный</p>
+                    </label>
+                    <label>
+                        <input type="radio" name="sweets" id="chocolate_w">Шоколад <p>белый</p>
+                    </label>
+                    <label>
+                        <input type="radio" name="sweets" id="marmalade">Мармелад
+                    </label>
+                    <label>
+                        <input type="radio" name="sweets" id="lolipops">Леденцы
+                    </label>
+                </div>
+
+                <!-- Фотки товаров -->
+                <div class="img_tovar" id="img_tovar">
+                    <div class="a"><a href="#"><img src="img/chok.jpg" alt="" width="300px" id="chocB_img"></a>
+                        <a href="#"><img src="img/wite_choco.jpg" alt="" width="300px" id="chocW_img"></a>
+                    </div>
+                    <div class="a"><a href="#"><img src="img/marm.jpg" alt="" width="300px" id="marm_img"></a>
+                        <a href="#"><img src="img/lolipop.jpg" alt="" width="300px" id="lolipop_img"></a>
+                    </div>
+                </div>
+                <!-- Фотки товаров -->
+
+                <div class="option" id="option_s">
+                    <select id="option">
+                        <option id="p1" value="p1"></option>
+                        <option id="p2" value="p2"></option>
+                        <option id="p3" value="p3"></option>
+                        <option id="p4" value="p4"></option>
+                        <option id="p5" value="p5"></option>
+                    </select>
+                </div>
+
+                <div class="img" id="img_s">
+                    <img src="" alt="" width="300px" id="tovar">
+                </div>
+
+                <div class="coll" id="coll_s">
+                    <input type="text" placeholder="Введите количество" id="coll">
+                </div>
+
+                <div class="text" id="text_s">
+                    <h1 id="cell">Цена: 0p</h1>
+                </div>
+
+                <div class="btn">
+                    <div class="btn_upp">
+                        <input class="plus" type="button" value="Добавить" id="btm_pluss">
+                        <input class="minus" type="button" value="Очистить" id="btn_minus">
+                    </div>
+                    <input class="sub" type="button" value="Купить" id="btn_sub">
+                </div>
+
+                <div class="property" id="property_s">
+                    <label for="age">
+                        <input type="checkbox" name="age" id="age">
+                        Подарочек <p>(+500p к цене)</p>
+                    </label>
+                    <label for="speed">
+                        <input type="checkbox" name="speed" id="speed">
+                        Быстрая доставка <p>(+200р к цене)</p>
+                    </label>
+                    <label for="dop_money">
+                        <input type="checkbox" name="dop_money" id="dop_money">
+                        Сказать спасибо <p>(+100р к цене)</p>
+                    </label>
+                </div>
+                <div class="corsine">
+                    <a href="#"><input class="corsin_btn" type="button" value="Корзина" id="corsine"></a>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="">
+                <h3>Дёмин Роман</h3>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

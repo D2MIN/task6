@@ -1,0 +1,179 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.body_section {
+  display: flex;
+  flex-direction: column;
+  min-height: 800px;
+}
+
+header {
+  color: #000000;
+  font-size: 25px;
+  min-height: 100px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 3px solid rgb(0, 0, 0);
+}
+header div h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+main {
+  flex: 1 1 auto;
+}
+main .main_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+main .main_div div {
+  padding: 20px;
+}
+main .main_div .img img {
+  border-radius: 25px;
+}
+main .main_div .coll input {
+  padding: 10px;
+  padding-right: 0px;
+  width: 300px;
+  height: 30px;
+  font-size: 24px;
+  border-color: #000000;
+}
+main .main_div .type {
+  min-height: 50px;
+  font-size: 24px;
+}
+main .main_div .type label {
+  margin: 20px;
+  font-size: 22px;
+  transition: font-size 0.5s ease;
+  color: #1b9aaa;
+}
+main .main_div .type label:hover {
+  border-bottom: 2px solid #000000;
+  font-size: 26px;
+}
+main .main_div .type label p {
+  display: inline;
+  color: rgb(182, 182, 182);
+}
+main .main_div .type label input {
+  accent-color: #000000;
+  margin-right: 5px;
+}
+main .main_div .option select {
+  padding: 20px;
+  min-width: 330px;
+  border-color: #000000;
+  color: #000000;
+  font-size: 18px;
+}
+main .main_div .property label p {
+  margin-bottom: 20px;
+  color: rgb(105, 105, 105);
+}
+main .main_div .text {
+  min-width: 300px;
+  color: darkslategrey;
+  border: 3px solid #000000;
+  border-radius: 30px;
+}
+main .main_div .btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .main_div .btn .plus {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid grey;
+  border-radius: 10px;
+  padding: 20px;
+}
+main .main_div .btn .plus:hover {
+  background-color: #b0f6ff;
+}
+main .main_div .btn .minus {
+  margin-top: 10px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid grey;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100px;
+}
+main .main_div .btn .minus:hover {
+  background-color: #b0f6ff;
+}
+main .main_div .btn .sub {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid grey;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+}
+main .main_div .btn .sub:hover {
+  background-color: #b0f6ff;
+}
+main .main_div .corsin_btn {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid grey;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+}
+main .main_div .corsin_btn:hover {
+  background-color: #b0f6ff;
+}
+
+footer {
+  min-height: 60px;
+  background-color: rgb(255, 255, 255);
+  border-top: 3px solid rgb(0, 0, 0);
+}
+footer div h3 {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.option, .img, .coll, .text, .property {
+  display: none;
+}
+
+.btn input {
+  display: none;
+}
+
+.corsine input {
+  display: none;
+}
+
+.img_tovar {
+  max-width: 800px;
+  min-height: 800px;
+}
+.img_tovar .a {
+  display: flex;
+  justify-content: center;
+}
+.img_tovar img {
+  margin: 20px;
+  border-radius: 50px;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5);
+  transition: width 0.5s ease;
+}
+.img_tovar img:hover {
+  border-radius: 30px;
+  width: 320px;
+}/*# sourceMappingURL=style.css.map */
